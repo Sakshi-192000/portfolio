@@ -1,16 +1,17 @@
-
 import React from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import Image from "next/image";
+import Main from "./Main/page";
+import About from "./About/page";
+import Skills from "./Skills/page";
+import Projects from "./Projects/page";
 
-import MainSection from "./components/MainSection";
 
 export default function Home() {
-   
-    return (
-    <MainSection/>
+  return (
+    <div>
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+    </div>
   );
-};
-
-  
+}
