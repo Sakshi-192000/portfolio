@@ -30,12 +30,12 @@ const prefix = '/portfolio'
           <p>
             I built this application in React JS and is hosted on Firebase.
             This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
+            firestore cloud storage database.This application is pulling movie
             data from an the TMDB movie API and displaying different categories
             such as popular , top rated and upcoming .It features horizontal slider and also
              a featured Selection that allows us to add favourite movies to
             our list. The useContext hook is also being implemented for state
-            management.
+            Management.
           </p>
           <a
             href='https://github.com/Sakshi-192000/react-netflix'
