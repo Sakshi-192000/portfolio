@@ -28,7 +28,7 @@ const prefix = '/portfolio'
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on Firebase.
+            I built this application in React JS and  hosted it on Firebase.
             This app features user authentication with firebase as well as the
             firestore cloud storage database.This application is pulling movie
             data from an the TMDB movie API and displaying different categories
