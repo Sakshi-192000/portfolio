@@ -26,7 +26,7 @@ const page = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS.
+            I built this application in React JS and is hosted on firebase.
             This app features user authentication with firebase as well as the
             firestore cloud storage database. This application is pulling movie
             data from an the TMDB movie API and displaying different categories
@@ -41,6 +41,13 @@ const page = () => {
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          </a>
+          <a
+            href='https://react-netflix-3b3ed.web.app/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button className='px-8 py-2 mt-4 mr-8'>Live</button>
           </a>
           
         </div>

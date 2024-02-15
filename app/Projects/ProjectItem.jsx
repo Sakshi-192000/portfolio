@@ -17,5 +17,5 @@ const ProjectItem = ({backgroundImg , title , Url,tech}) => {
    </div>
   )
 }
-
+        
 export default ProjectItem

@@ -74,8 +74,8 @@ const NavBar = () => {
 
             <div className="pt-16">
               <p className="uppercase text-rose-600 font-bold">Lets connect</p>
-              <div className="flex justify-between items-center my-4 w-full">
-                <div className="rounded-full shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
+              <div className="flex justify-start items-center my-4 w-full">
+                <div className="rounded-full shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-500 mr-8">
                   <a
                     href={
                       "https://www.linkedin.com/in/sakshi-ranglani-5b51b2192"
@@ -85,15 +85,10 @@ const NavBar = () => {
                     <FaLinkedin />
                   </a>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
+                <div className="rounded-full shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-500 ml-8">
                   <a href={"https://github.com/Sakshi-192000"} target="_blank">
                     <FaGithub />
                   </a>
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <Link href={"/"}>
-                    <AiOutlineMail />
-                  </Link>
                 </div>
               </div>
             </div>
