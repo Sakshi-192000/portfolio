@@ -3,6 +3,8 @@ import React from "react";
 import girlee from "../../public/girlee.jpg";
 
 const page = () => {
+
+
   return (
     <div className="w-full md:h-screen flex items-center p-2 py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 ml-4">
@@ -44,7 +46,7 @@ const page = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto flex items-center justify-center roundex-xl p-4 hover:scale-105 ease duration-300">
-          <Image src={girlee} />
+          <Image src={ girlee} />
         </div>
       </div>
     </div>
