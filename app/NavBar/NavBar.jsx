@@ -1,18 +1,38 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+
+  const router = useRouter();
+
+  useEffect(() => {
+    if (
+      router.asPath === "/Projects" ||
+      router.asPath === "/Skills" ||
+      router.asPath === "/About"
+    ) {
+      setNavBg("transparent");
+    } else {
+      setNavBg("#ecf0f3");
+    }
+  });
+
   const handleNavBar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full fixed h-16 shadow-xl z-[100] dark:bg-white">
+    <div
+      className="w-full fixed h-16 shadow-xl z-[100] dark:bg-white"
+      style={{ backgroundColor: `${navBg}` }}
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-8 uppercase">
-        <p className="font-bold">Portfolio</p>
+        <p className="font-bold">PORTFOLIO </p>
 
         <ul className="hidden md:flex">
           <Link href="/">

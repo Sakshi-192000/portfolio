@@ -1,6 +1,5 @@
 
 import React from "react";
-import Image from "next/image";
 import RN from "../../public/RN.webp";
 import SkillsImage from "./SkillsImage";
 import nextjs from "../../public/nextjs.png";
