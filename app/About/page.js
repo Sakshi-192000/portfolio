@@ -31,7 +31,6 @@ const page = () => {
             <li>Responsible for implementing Navigation of the App</li>
             <li>Refactoring the App in Presentational / Container Pattern</li>
             <li>Implementing Global colors depending on the dark/light mode</li>
-            <li>Implementing Dark /light mode using async-storage</li>
           </div>
 
           <h3>Certfication & Achievements</h3>
