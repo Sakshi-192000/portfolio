@@ -32,7 +32,7 @@ const page = () => {
             used for different body parts such as back , cardio ,
             lowerlegs etc . 
             This application is pulling exercise data
-            data from an the Rapid Api and uses React Navigation 
+            data from Rapid Api and uses React Navigation 
             for navigation of the App
           </p>
           <a
