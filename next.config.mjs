@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   output:'export',
-   basePath:'/portfolio',
-   assetPrefix:'/portfolio'
-   
+  output: "export",
+  images: {
+    loader: "akamai",
+    path: "/portfolio",
+  },
+  assetPrefix: "/portfolio",
 };
 
 export default nextConfig;
-
