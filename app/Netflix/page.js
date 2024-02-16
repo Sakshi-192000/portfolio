@@ -12,7 +12,7 @@ const prefix = '/portfolio'
       <div className="w-screen h-[30vh] lg:h-[40vh] bg-white relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] z-10 lg:h-[40vh] bg-black/80" />
         <Image
-          src={ prefix + netflixxx}
+          src="https://sakshi-192000.github.io/portfolio/netflixxx.jpg"
           className="absolute"
           layout="fill"
           objectFit="cover"
