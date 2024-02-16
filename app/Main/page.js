@@ -19,7 +19,7 @@ const page = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <div className="rounded-full shadow-lg hover:scale-110 ease-in duration-500 shadow-gray-400 p-6  cursor-pointer">
               <a
-                href={"https://  www.linkedin.com/in/sakshi-ranglani-5b51b2192"}
+                href={"https://www.linkedin.com/in/sakshi-ranglani-5b51b2192"}
                 target="_blank"
               >
                 <FaLinkedin />
